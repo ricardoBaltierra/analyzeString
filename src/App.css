@@ -61,3 +61,13 @@
   height: 30px;
   align-self: center;
 }
+
+.keys {
+  text-align: justify;
+  padding-left: 40%;
+}
+
+.object {
+  text-align: justify;
+  padding-left: 45%;
+}

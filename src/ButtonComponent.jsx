@@ -7,14 +7,14 @@ const ButtonComponent = () => {
   if (analyze) {
     return (
       <div>
-        <button type="reset" onClick={() => btnAction("Reset")}>Reset</button>
+        <button onClick={() => btnAction("Reset")}>Restablecer</button>
         <br/>
       </div>
     );
   } else {
     return (
       <div>
-        <button type="submit" onClick={() => btnAction("Decodificar")}>Decodificar</button>
+        <button onClick={() => btnAction("Decodificar")}>Decodificar</button>
         <br/>
       </div>
     );
